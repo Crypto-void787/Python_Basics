@@ -10,6 +10,12 @@ my_name = input('>')
 
 print("Yo! " + my_name + " wot's ur age tho ?")
 
+print("Length of ur name is : " )
+
+print(len(my_name))
+
 my_age = input('>')
 
 print("y'll be " + str(int(my_age) + 1) + " in a year!")
+
+
