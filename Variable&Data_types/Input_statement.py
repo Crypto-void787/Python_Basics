@@ -14,6 +14,12 @@ CGPA = float(input('>'))
 print(CGPA)
 
 
+
+''' Type casting: Converting one datatype to another datatype'''
+
 a = input("Any number: ")
-print("You entered " + str(a) + "!")
+print("You entered " + a + "!")
 print("You entered " , a , "!")
+
+''' The above two print statements are same but the first one 
+is concatenation and the second one is just comma separation'''
