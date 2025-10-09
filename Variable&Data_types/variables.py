@@ -7,6 +7,8 @@ grade = 1
 
 Female = True 
 
+Disability = None 
+
 print(name)
 print("Name type: ", type(name))
 
@@ -19,6 +21,11 @@ print("Grade type: ", type(grade))
 print(Female)
 print("Female type: ", type(Female))
 
+print(Disability)
+print("Disability type: ", type(Disability))
+
+
+print()
 #we can change 'em as well 
 
 age = 7 
