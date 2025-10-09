@@ -2,16 +2,16 @@
 input("Enter your name: ") 
 '''This will always take input as string datatype'''
 
-name = input('>')
+name = input('Enter your name: ')
 print(name)
 
-age = int(input('>'))
+age = int(input('Enter your age: '))
 ''' This gonna take input as the integer datatype cz we put type conversion there'''
 print(age)
 
-CGPA = float(input('>'))
+CGPA = float(input('Enter your CGPA: '))
 '''This gonna take input as float datatype '''
-print(CGPA)
+print(CGPA, "Type of CGPA:", type(CGPA))
 
 
 
