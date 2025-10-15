@@ -45,3 +45,16 @@ Person[0] = "Ania"
 # Its altered 
 print(Person)
 
+''' Let's try to alter an individual string '''
+str = "Hello!"
+print(str[0])
+# str[0] = "Y"   
+''' Throwing a big horror error '''
+
+print(str)  
+
+''' But this same stuff is 
+     completley possible on lists '''
+
+''' Python ain't throwing error to
+      alter the string from any list'''
