@@ -2,6 +2,6 @@
 #  Hello world 
 """ How's going on 
                    I am a comment 
-                                m ignoerd """
+                                m ignored """
 
 print("Getting comments ")
