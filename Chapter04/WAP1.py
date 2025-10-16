@@ -8,4 +8,7 @@ print("Subjects: \n", sub1 , "\n" , sub2 )
 
 classroom = sub1.union(sub2)
 
-print("\nClassroom needed: " + str(len(classroom)))
+print("\nClassroom needed: " + str(len(classroom)))     
+
+
+''' Or simply a set store only unique value so jus write all it 'll output the unique one '''
