@@ -51,7 +51,7 @@ print("\n\nSet 1: " + str(s1) + " | Set 2: " + str(s2))
 
 print("\nUnion() Method!")
 s = s1.union(s2)
-print("Union of set 1 and set 2:" + str(s))
+print("Union of set 1 and set 2:" + str(s)) 
 
 print("\nInteresection() Method!")
 s = s1.intersection(s2)
