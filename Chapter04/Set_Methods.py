@@ -2,7 +2,9 @@
        - add() # add you dude `
        - remove() # remove the given ele 
        - clear() # empties the set
-       - pop()  #removes random value '''
+       - pop()  #removes random value 
+       - union()
+       - intersection()'''
 
 print("add() Method!")
 A = set()  # an empty set 
@@ -41,3 +43,16 @@ A.clear()
 
 print("After clear(): " + str(A))
 print("After clear(): " + str(len(A)))
+
+
+s1 = {1, 2, 'A'}
+s2 = { 3, 1, 'B'}
+print("\n\nSet 1: " + str(s1) + " | Set 2: " + str(s2))
+
+print("\nUnion() Method!")
+s = s1.union(s2)
+print("Union of set 1 and set 2:" + str(s))
+
+print("\nInteresection() Method!")
+s = s1.intersection(s2)
+print("Union of set 1 and set 2:" + str(s))
