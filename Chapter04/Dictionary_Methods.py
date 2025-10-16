@@ -4,7 +4,7 @@
 - myDic.keys() #return all keys 
 - myDic.values() #return all values 
 - myDic.items() #returns all (key, vall) pairs as tuples
-- myDic.get("key"") #return key accto value
+- myDic.get("key") #return key accto value
 - myDic.update(newDict) #insert specific items to the dictionaries  '''
 
 tourism = {
@@ -39,6 +39,15 @@ print("pairs[3]" , pairs[3])
 
 
 print("\nget() !\n" , tourism.get("popular_food")) # getting the valuees of the specific key 
-# print("\nkeys() !\n" , tourism.update("lang")) 
+
+
+print("\nupdate() !" )
+tourism.update({"lang" : "Japanese"})
+print(tourism) 
+
+'''
+another method : 
+ tourism['lang'] = 'Japanese'
+  but its kinda not suiteable can give errors '''
 
 print()
