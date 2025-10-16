@@ -14,6 +14,7 @@ Student = {
 print("Student dictionary:\n" , Student)
 print( "\nAccessing nested dictionary named as Subject:\n",Student['Subjects'])
 # print("German" , Student['German'])
+print( "\nAccessing nested dictionary's keys:",Student['Subjects']['German'])
 
 
 print( "Name before:", Student['Name'])
