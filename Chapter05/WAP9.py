@@ -1,4 +1,4 @@
-''' Getting factorial via for loop '''
+''' Getting factorial via loop '''
 
 num = 5 
 fact = 1 
