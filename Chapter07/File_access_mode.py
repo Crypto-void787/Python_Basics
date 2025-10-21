@@ -8,6 +8,7 @@
            The first one is read() and the second one is write().File must already
            exist, otherwise error. You can read and write in it,but it doesn't erase
            what's already inside.
+           IMP: To overwrite frm start we can open the file n wwrite it via r+ 
      
       w -> write file. With this we jus can write the file but can't read 
           it even for the testing purpose. if u wanna read must use the read access
