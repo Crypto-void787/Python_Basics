@@ -1,11 +1,11 @@
-f = open("demo.txt" , "+r")
+f = open("Files/demo.txt" , "+r")
 data = f.read(9) # to read particular set of character 
 print(data)
 f.close()
 
 ''' Also can read line by line using readline()'''
 print("\nReading line by line:")
-f = open("demo.txt" , "r")
+f = open("Files/demo.txt" , "r")
 line1 = f.readline() 
 print(line1)
 
@@ -17,7 +17,7 @@ f.close()
 
 '''simple printing '''
 
-f = open("demo.txt" , 'r')
+f = open("Files/demo.txt" , 'r')
 data = f.read()
 print(data)
 

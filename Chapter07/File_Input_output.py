@@ -19,11 +19,11 @@
     f.close()   '''
 
 
-f = open("demo.txt" , "a")
+f = open("Files/demo.txt" , "a")
 data = f.write("wzup")
 f.close()
 
-f = open("demo.txt", "r")
+f = open("Files/demo.txt", "r")
 data = f.read()
 print(data)
 f.close()

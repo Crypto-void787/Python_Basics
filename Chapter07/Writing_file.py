@@ -1,16 +1,16 @@
-w = open("writing.txt" , 'w')
+w = open("Files/writing.txt" , 'w')
 output = w.write("M learning python")
 
 
 
 
 
-w = open("writing.txt" , "a") #append mode 
+w = open("Files/writing.txt" , "a") #append mode 
 w.write("\nM gonna study DBMS after this!")
 w.close()
 
 
-w = open("writing.txt" , 'r')
+w = open("Files/writing.txt" , 'r')
 Reading = w.read()
 print(Reading) 
 w.close() 

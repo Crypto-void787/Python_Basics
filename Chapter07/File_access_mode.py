@@ -28,7 +28,7 @@
 
 
 
-v = open("This.txt" , "w+")
+v = open("Files/This.txt" , "w+")
 w = v.write("\nIm a demo file") 
 # rn the pointer is at the last of file so we have to seek(0) in order to print it from start 
 v.seek(0) 
@@ -39,10 +39,10 @@ print(w)
 
 ''' This how w+ works lol'''
 
-v = open("This.txt" , "a")
+v = open("Files/This.txt" , "a")
 w = v.write("\nThis sentence is in via append access mode!")
 
-v = open("This.txt" , "r+")
+v = open("Files/This.txt" , "r+")
 w = v.read()
 print(w)
 
