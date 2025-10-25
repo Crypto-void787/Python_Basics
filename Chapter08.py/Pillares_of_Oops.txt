@@ -1,0 +1,33 @@
+
+
+ OOps -> Object Oriented Programing 
+
+ 1- Abstraction 
+ 2- Encapsulation
+ 3- Polymorphism 
+ 4- Inheritence 
+
+
+1. Abstraction:
+
+Abstraction is the concept of hiding the complex implementation details and showing only the essential features of an object. 
+It focuses on what an object does rather than how it does it, enabling users to interact with a simplified interface while the
+internal workings remain hidden.
+
+2. Encapsulation:
+
+Encapsulation is the technique of bundling the data (attributes) and the methods (functions) that operate on the data into a single
+unit called a class. It restricts direct access to some of the object's components, protecting the internal state and ensuring data 
+security by exposing only select information through public methods.
+
+3. Polymorphism:
+
+Polymorphism means "many forms" and allows objects to be treated as instances of their parent class rather than their actual class.
+It enables one interface to control access to a general class of actions, with specific implementations determined at runtime, often 
+through method overriding or overloading.
+
+4. Inheritance:
+
+Inheritance is a mechanism where one class (child/subclass) inherits the properties and behaviors (methods) of another class 
+(parent/superclass). It promotes code reuse, establishes a natural hierarchy, and allows new classes to extend existing ones 
+with additional features or modifications.
